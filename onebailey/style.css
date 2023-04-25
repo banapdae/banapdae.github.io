@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background: white;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 642px;
+    word-break: keep-all;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+nav .description {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    color: dimgray;
+    line-height: 230%;
+}
+
+nav .description .impact {
+    padding: 4px;
+    margin: 3px;
+    color: navy;
+    background-color: lightsteelblue;
+}
+
+nav .notification {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: navy;
+    color: cyan;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease-in-out;
+}
+
+nav .notification:hover {
+    color: navy;
+    background-color: cyan;
+
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+nav .notification .left {
+    /* float: left; */
+}
+
+nav .notification .right {
+    float: right;
+}
+
+nav .notification .right img {
+    width: 25px;
+}
+
+article {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+article .description {
+    padding: 10px;
+}
+
+article section {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    font-size: large;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease-in-out;
+}
+
+article section .impact {
+    font-weight: bold;
+}
+
+article section .right {
+    float: right;
+}
+
+article section .right img {
+    width: 25px;
+}
+
+article section:hover {
+    background-color: cyan;
+
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+    border-top: 1px solid;
+    font-size: small;
+    line-height: 180%;
+    color: dimgray;
+}
+
+footer .impact {
+    font-weight: bold;
+}
