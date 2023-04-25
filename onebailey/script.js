@@ -3,23 +3,23 @@ function openLink(index) {
 
     switch(index) {
         case 0:
-            link = "https://docs.google.com/spreadsheets/d/1UqsJSAqmz3_kKMMjGmNItDxKR8zV_ULH2uDtx7myK_8/edit?usp=sharing"
+            link = "https://docs.google.com/spreadsheets/d/1UqsJSAqmz3_kKMMjGmNItDxKR8zV_ULH2uDtx7myK_8"
             break
 
         case 1:
-            link = "https://docs.google.com/forms/d/e/1FAIpQLSebsAIgTwCfmgXJfqPUdr_bpTRNfD8odxdUTt8Uc4WRsB5MHQ/viewform"
+            link = "https://docs.google.com/forms/d/1VvuarwIhKICcKLZ_2hYtXXMpuMhad-dk957Hs0bwCU4"
             break
 
         case 2:
-            link = "https://docs.google.com/forms/d/e/1FAIpQLSetEa0x2zQYMPY6JLIzxzdNFvfEVYec2oMqWbJdnf_e5imAlQ/viewform"
+            link = "https://docs.google.com/forms/d/1hG3-vTCF13BmS2P4HxkOavtEYazB724l1mfGa4GuLbE"
             break
 
         case 3:
-            link = "https://docs.google.com/forms/d/e/1FAIpQLSdXX-E74Q8xLzBwL8V-u846bM1X_jD5Cc0NCeF1X21GbWtk6Q/viewform"
+            link = "https://docs.google.com/forms/d/1rsAwnFttW6CNN6DIGCOhLio4Q4TiZs9WUWAA4W76hbI"
             break
 
         case 4:
-            link = "https://docs.google.com/forms/d/e/1FAIpQLSffQ7oCJIAyirpIshggNwaS-dob8xvG1VlUKZLAagdTtfFgyg/viewform"
+            link = "https://docs.google.com/forms/d/1aMLKaytD0TTBSdlltYsE9SLUaQjiLlusVtFXMzQpIWQ"
             break
     }
     
