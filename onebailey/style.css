@@ -22,19 +22,19 @@ header {
 }
 
 nav .description {
-    margin-top: 10px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: bold;
     font-size: larger;
     color: dimgray;
-    line-height: 230%;
+    line-height: 210%;
 }
 
 nav .description .impact {
     padding: 4px;
     margin: 3px;
     color: navy;
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
 }
 
 nav .notification {
@@ -76,7 +76,8 @@ article {
 }
 
 article .description {
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 article section {
