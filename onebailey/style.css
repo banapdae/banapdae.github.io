@@ -21,6 +21,20 @@ header {
     font-weight: bold;
 }
 
+nav .cover {
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+nav .event {
+    padding: 4px;
+    padding-bottom: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+}
+
 nav .description {
     padding-left: 20px;
     padding-right: 20px;
